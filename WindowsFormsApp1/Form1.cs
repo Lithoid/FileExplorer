@@ -163,12 +163,8 @@ namespace WindowsFormsApp1
             {
                 this.Text = currenDirectory.FullName + item.Text;
                 workZip.ExtractZipFile(currenDirectory.FullName + item.Text, null, currenDirectory.FullName);
-            }
-           
-        }
-    
-
-       
+            }   
+        } 
     }
 }
 

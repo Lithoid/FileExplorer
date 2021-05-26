@@ -43,6 +43,7 @@ namespace WindowsFormsApp1
             this.toolStripDropDownCipher = new System.Windows.Forms.ToolStripDropDownButton();
             this.toolStripMenuCipher = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuDeСipher = new System.Windows.Forms.ToolStripMenuItem();
+            this.label1 = new System.Windows.Forms.Label();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -117,14 +118,14 @@ namespace WindowsFormsApp1
             // toolStripAddToArchive
             // 
             this.toolStripAddToArchive.Name = "toolStripAddToArchive";
-            this.toolStripAddToArchive.Size = new System.Drawing.Size(224, 26);
+            this.toolStripAddToArchive.Size = new System.Drawing.Size(210, 26);
             this.toolStripAddToArchive.Text = "Додати до архіву";
             this.toolStripAddToArchive.Click += new System.EventHandler(this.toolStripAddToArchive_Click);
             // 
             // toolStripDeArchive
             // 
             this.toolStripDeArchive.Name = "toolStripDeArchive";
-            this.toolStripDeArchive.Size = new System.Drawing.Size(224, 26);
+            this.toolStripDeArchive.Size = new System.Drawing.Size(210, 26);
             this.toolStripDeArchive.Text = "Розрахівувати";
             this.toolStripDeArchive.Click += new System.EventHandler(this.toolStripDeArchive_Click);
             // 
@@ -143,22 +144,32 @@ namespace WindowsFormsApp1
             // toolStripMenuCipher
             // 
             this.toolStripMenuCipher.Name = "toolStripMenuCipher";
-            this.toolStripMenuCipher.Size = new System.Drawing.Size(224, 26);
+            this.toolStripMenuCipher.Size = new System.Drawing.Size(188, 26);
             this.toolStripMenuCipher.Text = "Шифрувати";
             this.toolStripMenuCipher.Click += new System.EventHandler(this.toolStripMenuCipher_Click);
             // 
             // toolStripMenuDeСipher
             // 
             this.toolStripMenuDeСipher.Name = "toolStripMenuDeСipher";
-            this.toolStripMenuDeСipher.Size = new System.Drawing.Size(224, 26);
+            this.toolStripMenuDeСipher.Size = new System.Drawing.Size(188, 26);
             this.toolStripMenuDeСipher.Text = "Дешифрувати";
             this.toolStripMenuDeСipher.Click += new System.EventHandler(this.toolStripMenuDeСipher_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(583, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(205, 17);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Головецький Євгеній ІПЗ-20-1";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.comboBox1);
@@ -186,6 +197,7 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.ToolStripDropDownButton toolStripDropDownCipher;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuCipher;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuDeСipher;
+        private System.Windows.Forms.Label label1;
     }
 }
 
