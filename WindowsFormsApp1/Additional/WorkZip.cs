@@ -11,7 +11,7 @@ namespace WindowsFormsApp1.Additional
 {
     class WorkZip
     {
-        public void CreateSample(string outPathname, string password, string folderName)
+        public void CreateSample(string outPathname, string password, string folderName) // створюе архів
         {
 
             using (FileStream fsOut = File.Create(outPathname))
@@ -23,7 +23,7 @@ namespace WindowsFormsApp1.Additional
                 CompressFolder(folderName, zipStream, folderOffset);
             }
         }
-        public void ExtractZipFile(string archivePath, string password, string outFolder)
+        public void ExtractZipFile(string archivePath, string password, string outFolder)// витягує файли з архіву
         {
             using (var fsInput = File.OpenRead(archivePath))
             using (var zf = new ZipFile(fsInput))
@@ -54,7 +54,7 @@ namespace WindowsFormsApp1.Additional
                 }
             }
         }
-        private void CompressFolder(string path, ZipOutputStream zipStream, int folderOffset)
+        private void CompressFolder(string path, ZipOutputStream zipStream, int folderOffset)// стискає файли
         {
 
             var files = Directory.GetFiles(path);

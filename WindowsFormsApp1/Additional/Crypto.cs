@@ -78,6 +78,6 @@ namespace WindowsFormsApp1.Additional
                     destination.Write(buffer2, 0, keyLength);
                 }
             }
-        }
+        }//виконує битове шифрування файлів за значенням
     }
 }

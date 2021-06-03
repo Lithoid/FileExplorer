@@ -12,3 +12,6 @@ D:\Универ\ООП\OOPLab14\WindowsFormsApp1\bin\Debug\ICSharpCode.SharpZipL
 D:\Универ\ООП\OOPLab14\WindowsFormsApp1\bin\Debug\ICSharpCode.SharpZipLib.pdb
 D:\Универ\ООП\OOPLab14\WindowsFormsApp1\bin\Debug\ICSharpCode.SharpZipLib.xml
 D:\Универ\ООП\OOPLab14\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+D:\Универ\ООП\OOPLab14\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.MoveForm.resources
+D:\Универ\ООП\OOPLab14\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.CopyForm.resources
+D:\Универ\ООП\OOPLab14\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.RenameForm.resources
