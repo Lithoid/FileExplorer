@@ -73,7 +73,7 @@ namespace WindowsFormsApp1
             this.toolStripDropDownCipher});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(789, 27);
+            this.toolStrip1.Size = new System.Drawing.Size(882, 27);
             this.toolStrip1.TabIndex = 3;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -132,7 +132,7 @@ namespace WindowsFormsApp1
             // 
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(572, 7);
+            this.label1.Location = new System.Drawing.Point(665, 7);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(205, 17);
             this.label1.TabIndex = 4;
@@ -154,7 +154,7 @@ namespace WindowsFormsApp1
             this.comboBoxRight.Dock = System.Windows.Forms.DockStyle.Left;
             this.comboBoxRight.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxRight.FormattingEnabled = true;
-            this.comboBoxRight.Location = new System.Drawing.Point(397, 3);
+            this.comboBoxRight.Location = new System.Drawing.Point(444, 3);
             this.comboBoxRight.Name = "comboBoxRight";
             this.comboBoxRight.Size = new System.Drawing.Size(65, 24);
             this.comboBoxRight.TabIndex = 6;
@@ -180,17 +180,17 @@ namespace WindowsFormsApp1
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 92.96482F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(789, 516);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(882, 626);
             this.tableLayoutPanel1.TabIndex = 9;
             // 
             // textBoxRight
             // 
             this.textBoxRight.BackColor = System.Drawing.Color.LightBlue;
             this.textBoxRight.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBoxRight.Location = new System.Drawing.Point(397, 33);
+            this.textBoxRight.Location = new System.Drawing.Point(444, 33);
             this.textBoxRight.Name = "textBoxRight";
             this.textBoxRight.ReadOnly = true;
-            this.textBoxRight.Size = new System.Drawing.Size(389, 22);
+            this.textBoxRight.Size = new System.Drawing.Size(435, 22);
             this.textBoxRight.TabIndex = 11;
             // 
             // listViewRight
@@ -205,9 +205,9 @@ namespace WindowsFormsApp1
             this.listViewRight.Dock = System.Windows.Forms.DockStyle.Fill;
             this.listViewRight.HideSelection = false;
             this.listViewRight.IsActive = false;
-            this.listViewRight.Location = new System.Drawing.Point(397, 60);
+            this.listViewRight.Location = new System.Drawing.Point(444, 60);
             this.listViewRight.Name = "listViewRight";
-            this.listViewRight.Size = new System.Drawing.Size(389, 428);
+            this.listViewRight.Size = new System.Drawing.Size(435, 538);
             this.listViewRight.StatmentBox = null;
             this.listViewRight.TabIndex = 7;
             this.listViewRight.UseCompatibleStateImageBehavior = false;
@@ -252,7 +252,7 @@ namespace WindowsFormsApp1
             this.listViewLeft.IsActive = false;
             this.listViewLeft.Location = new System.Drawing.Point(3, 60);
             this.listViewLeft.Name = "listViewLeft";
-            this.listViewLeft.Size = new System.Drawing.Size(388, 428);
+            this.listViewLeft.Size = new System.Drawing.Size(435, 538);
             this.listViewLeft.StatmentBox = null;
             this.listViewLeft.TabIndex = 8;
             this.listViewLeft.UseCompatibleStateImageBehavior = false;
@@ -295,9 +295,9 @@ namespace WindowsFormsApp1
             this.toolStripButtonFolder,
             this.toolStripButtonDelete,
             this.toolStripButtonRename});
-            this.toolStripBottom.Location = new System.Drawing.Point(0, 491);
+            this.toolStripBottom.Location = new System.Drawing.Point(0, 601);
             this.toolStripBottom.Name = "toolStripBottom";
-            this.toolStripBottom.Size = new System.Drawing.Size(789, 25);
+            this.toolStripBottom.Size = new System.Drawing.Size(882, 25);
             this.toolStripBottom.TabIndex = 9;
             // 
             // toolStripButtonEdit
@@ -362,14 +362,14 @@ namespace WindowsFormsApp1
             this.textBoxLeft.Location = new System.Drawing.Point(3, 33);
             this.textBoxLeft.Name = "textBoxLeft";
             this.textBoxLeft.ReadOnly = true;
-            this.textBoxLeft.Size = new System.Drawing.Size(388, 22);
+            this.textBoxLeft.Size = new System.Drawing.Size(435, 22);
             this.textBoxLeft.TabIndex = 10;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(789, 543);
+            this.ClientSize = new System.Drawing.Size(882, 653);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.toolStrip1);

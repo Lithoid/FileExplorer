@@ -37,6 +37,55 @@ namespace WindowsFormsApp1
 
 
         }
+
+        public CopyForm CopyForm
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public MoveForm MoveForm
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public RenameForm RenameForm
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        internal MyListView MyListView
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        internal WorkZip WorkZip
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        internal Crypto Crypto
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
         private MyListView GetActiveList()//повертає активний список
         {
             MyListView listView = null;
@@ -132,7 +181,6 @@ namespace WindowsFormsApp1
             if (item.ImageKey == "PREVIOUSFOLDER")
             {
                 listView.currentDirectory = listView.currentDirectory.Parent;
-                this.Text = listView.currentDirectory.FullName;
                 GetFilesAndDirs(listView);
 
             }
@@ -227,7 +275,6 @@ namespace WindowsFormsApp1
 
             if (item.Text.Contains(".zip"))
             {
-                this.Text = listView.currentDirectory.FullName + item.Text;
                 workZip.ExtractZipFile(listView.currentDirectory.FullName + "\\" + item.Text, null, listView.currentDirectory.FullName);
             }
             else
